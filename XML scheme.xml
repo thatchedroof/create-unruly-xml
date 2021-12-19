@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+   <variables>
+      <variable type="" id="$:AR7UN[IySHEtYs73@K">x</variable>
+      <variable type="" id="P)Mq+Jk~]bF2$,retu)=">testvar</variable>
+   </variables>
+   <block type="sensing_splat_released" id="z.TNhEI{Q4V$NUV0w=~-" x="90" y="90">
+      <value name="SPLAT_NUMBER">
+         <shadow type="math_number" id="P`}+KrivIa@ShwV9oZhM">
+            <field name="NUM">1</field>
+         </shadow>
+         <block type="variables_get" id="k+]DgI(Bg#fpJ{nxwV}W">
+            <field name="VAR" id="P)Mq+Jk~]bF2$,retu)=" variabletype="">testvar</field>
+         </block>
+      </value>
+   </block>
+   <block type="procedures_defnoreturn" id="|@c`CQDH9dt~nr-Z#==P" x="550" y="90">
+      <mutation>
+         <arg name="x" varid="$:AR7UN[IySHEtYs73@K" />
+      </mutation>
+      <field name="NAME">funny</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="DO">
+         <block type="music_play_note" id="aSKt*JXC%#$%VNh]7*O1">
+            <value name="NOTE">
+               <shadow type="math_number" id="I]6Y4_CGzFr?TS59vCl@">
+                  <field name="NUM">60</field>
+               </shadow>
+            </value>
+            <value name="SPLAT_NUMBER">
+               <shadow type="math_number" id="wdO_:fFa-eMh]l}7N[7[">
+                  <field name="NUM">1</field>
+               </shadow>
+            </value>
+         </block>
+      </statement>
+   </block>
+   <block type="prog_start_number" id="/uNzC6$~KnH{;#$8f0q8" x="290" y="130">
+      <value name="START_NUMBER">
+         <shadow type="math_number" id="8eJJQ64#3NPyI)im95WM">
+            <field name="NUM">1</field>
+         </shadow>
+      </value>
+   </block>
+   <block type="sensing_when_splat_pressed" id="57)5E8Wm3WKNU;uiF.i8" x="50" y="250">
+      <field name="ddPressedState">pressed</field>
+      <value name="SPLAT_NUMBER">
+         <shadow type="math_number" id="px7^{RMcQs`~sP;6x@EF">
+            <field name="NUM">1</field>
+         </shadow>
+      </value>
+      <statement name="DO">
+         <block type="light_splat" id="M3a?f)Qoul4c0;vf*3S%">
+            <value name="SPLAT_NUMBER">
+               <shadow type="math_number" id="jU!c|4=FQE#2TjBKP,Qr">
+                  <field name="NUM">1</field>
+               </shadow>
+            </value>
+            <value name="SPLAT_COLOUR">
+               <shadow type="color_picker" id="F_hqUqksCwWY!5?S^E4Z">
+                  <field name="ddColor">green</field>
+               </shadow>
+            </value>
+            <next>
+               <block type="light_dot" id="Q8my~oUgd#@tcKW8O|^~">
+                  <value name="DOT_NUMBER">
+                     <shadow type="math_number" id="GeJ;}IS@I*1V+{zn34_f">
+                        <field name="NUM">1</field>
+                     </shadow>
+                  </value>
+                  <value name="SPLAT_NUMBER">
+                     <shadow type="math_number" id="D[4F7=tp|SqG/i5P{5*7">
+                        <field name="NUM">1</field>
+                     </shadow>
+                  </value>
+                  <value name="DOT_COLOUR">
+                     <shadow type="color_picker" id="#{g#T@+|mT^qCA5B8Hen">
+                        <field name="ddColor">green</field>
+                     </shadow>
+                  </value>
+                  <next>
+                     <block type="sound_play_until_done" id="HY^x*5Le^X9Sj`EXH0jo">
+                        <value name="SOUND">
+                           <shadow type="sound_core" id="OKg%]$k5vnePAz]r|OSi">
+                              <field name="ddCoreSound">splat</field>
+                           </shadow>
+                        </value>
+                        <value name="SPLAT_NUMBER">
+                           <shadow type="math_number" id="O:p)x|,_/SCNlgJP-SB4">
+                              <field name="NUM">1</field>
+                           </shadow>
+                           <block type="math_arithmetic" id="APf|H[7?/Vc7crH{DkmB">
+                              <field name="OP">MINUS</field>
+                              <value name="A">
+                                 <shadow type="math_number" id="21Lb3wRW1y:97t044CRl">
+                                    <field name="NUM">1</field>
+                                 </shadow>
+                                 <block type="math_number" id="$GuwIE@7:/`1;`[_/#9N">
+                                    <field name="NUM">0</field>
+                                 </block>
+                              </value>
+                              <value name="B">
+                                 <shadow type="math_number" id="QwbMsB#:bT`R{S%I)p$3">
+                                    <field name="NUM">1</field>
+                                 </shadow>
+                              </value>
+                           </block>
+                        </value>
+                        <next>
+                           <block type="variables_set" id="3Q`Z@H.+C7~[GP2|H-y3">
+                              <field name="VAR" id="P)Mq+Jk~]bF2$,retu)=" variabletype="">testvar</field>
+                              <value name="VALUE">
+                                 <block type="math_number" id="6KZ.m^dCEw`|LA4s4BP*">
+                                    <field name="NUM">128</field>
+                                 </block>
+                              </value>
+                              <next>
+                                 <block type="time_set_stopwatch" id="08qeVO[L0RF_}(KVgxEB">
+                                    <value name="SECONDS">
+                                       <shadow type="math_number" id="lqf9iYEg5/qVuJVmEH@L">
+                                          <field name="NUM">0</field>
+                                       </shadow>
+                                       <block type="variables_get" id="u8zq:mV@6^e$+Zl:*sT@">
+                                          <field name="VAR" id="P)Mq+Jk~]bF2$,retu)=" variabletype="">testvar</field>
+                                       </block>
+                                    </value>
+                                    <next>
+                                       <block type="procedures_callnoreturn" id="o8%D[Do[I)t2n9]a{Ntl">
+                                          <mutation name="funny">
+                                             <arg name="x" />
+                                          </mutation>
+                                          <value name="ARG0">
+                                             <block type="music_instruments" id="C`16)58K.zW@;h2!6(2j">
+                                                <field name="ddInstruments">clarinet</field>
+                                             </block>
+                                          </value>
+                                       </block>
+                                    </next>
+                                 </block>
+                              </next>
+                           </block>
+                        </next>
+                     </block>
+                  </next>
+               </block>
+            </next>
+         </block>
+      </statement>
+   </block>
+   <block type="sensing_splat_pressed" id="MzQ:LG#j]4]ZKS54dC3~" x="570" y="230">
+      <value name="SPLAT_NUMBER">
+         <shadow type="math_number" id="S4CElCcmrY;er,@ietja">
+            <field name="NUM">1</field>
+         </shadow>
+      </value>
+   </block>
+</xml>

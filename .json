@@ -1,0 +1,549 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "xml": {
+    "_attributes": {
+      "xmlns": "http://www.w3.org/1999/xhtml"
+    },
+    "variables": {
+      "variable": [
+        {
+          "_attributes": {
+            "type": "",
+            "id": "$:AR7UN[IySHEtYs73@K"
+          },
+          "_text": "x"
+        },
+        {
+          "_attributes": {
+            "type": "",
+            "id": "P)Mq+Jk~]bF2$,retu)="
+          },
+          "_text": "testvar"
+        }
+      ]
+    },
+    "block": [
+      {
+        "_attributes": {
+          "type": "sensing_splat_released",
+          "id": "z.TNhEI{Q4V$NUV0w=~-",
+          "x": "90",
+          "y": "90"
+        },
+        "value": {
+          "_attributes": {
+            "name": "SPLAT_NUMBER"
+          },
+          "shadow": {
+            "_attributes": {
+              "type": "math_number",
+              "id": "P`}+KrivIa@ShwV9oZhM"
+            },
+            "field": {
+              "_attributes": {
+                "name": "NUM"
+              },
+              "_text": "1"
+            }
+          },
+          "block": {
+            "_attributes": {
+              "type": "variables_get",
+              "id": "k+]DgI(Bg#fpJ{nxwV}W"
+            },
+            "field": {
+              "_attributes": {
+                "name": "VAR",
+                "id": "P)Mq+Jk~]bF2$,retu)=",
+                "variabletype": ""
+              },
+              "_text": "testvar"
+            }
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "type": "procedures_defnoreturn",
+          "id": "|@c`CQDH9dt~nr-Z#==P",
+          "x": "550",
+          "y": "90"
+        },
+        "mutation": {
+          "arg": {
+            "_attributes": {
+              "name": "x",
+              "varid": "$:AR7UN[IySHEtYs73@K"
+            }
+          }
+        },
+        "field": {
+          "_attributes": {
+            "name": "NAME"
+          },
+          "_text": "funny"
+        },
+        "comment": {
+          "_attributes": {
+            "pinned": "false",
+            "h": "80",
+            "w": "160"
+          },
+          "_text": "Describe this function..."
+        },
+        "statement": {
+          "_attributes": {
+            "name": "DO"
+          },
+          "block": {
+            "_attributes": {
+              "type": "music_play_note",
+              "id": "aSKt*JXC%#$%VNh]7*O1"
+            },
+            "value": [
+              {
+                "_attributes": {
+                  "name": "NOTE"
+                },
+                "shadow": {
+                  "_attributes": {
+                    "type": "math_number",
+                    "id": "I]6Y4_CGzFr?TS59vCl@"
+                  },
+                  "field": {
+                    "_attributes": {
+                      "name": "NUM"
+                    },
+                    "_text": "60"
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "name": "SPLAT_NUMBER"
+                },
+                "shadow": {
+                  "_attributes": {
+                    "type": "math_number",
+                    "id": "wdO_:fFa-eMh]l}7N[7["
+                  },
+                  "field": {
+                    "_attributes": {
+                      "name": "NUM"
+                    },
+                    "_text": "1"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "type": "prog_start_number",
+          "id": "/uNzC6$~KnH{;#$8f0q8",
+          "x": "290",
+          "y": "130"
+        },
+        "value": {
+          "_attributes": {
+            "name": "START_NUMBER"
+          },
+          "shadow": {
+            "_attributes": {
+              "type": "math_number",
+              "id": "8eJJQ64#3NPyI)im95WM"
+            },
+            "field": {
+              "_attributes": {
+                "name": "NUM"
+              },
+              "_text": "1"
+            }
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "type": "sensing_when_splat_pressed",
+          "id": "57)5E8Wm3WKNU;uiF.i8",
+          "x": "50",
+          "y": "250"
+        },
+        "field": {
+          "_attributes": {
+            "name": "ddPressedState"
+          },
+          "_text": "pressed"
+        },
+        "value": {
+          "_attributes": {
+            "name": "SPLAT_NUMBER"
+          },
+          "shadow": {
+            "_attributes": {
+              "type": "math_number",
+              "id": "px7^{RMcQs`~sP;6x@EF"
+            },
+            "field": {
+              "_attributes": {
+                "name": "NUM"
+              },
+              "_text": "1"
+            }
+          }
+        },
+        "statement": {
+          "_attributes": {
+            "name": "DO"
+          },
+          "block": {
+            "_attributes": {
+              "type": "light_splat",
+              "id": "M3a?f)Qoul4c0;vf*3S%"
+            },
+            "value": [
+              {
+                "_attributes": {
+                  "name": "SPLAT_NUMBER"
+                },
+                "shadow": {
+                  "_attributes": {
+                    "type": "math_number",
+                    "id": "jU!c|4=FQE#2TjBKP,Qr"
+                  },
+                  "field": {
+                    "_attributes": {
+                      "name": "NUM"
+                    },
+                    "_text": "1"
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "name": "SPLAT_COLOUR"
+                },
+                "shadow": {
+                  "_attributes": {
+                    "type": "color_picker",
+                    "id": "F_hqUqksCwWY!5?S^E4Z"
+                  },
+                  "field": {
+                    "_attributes": {
+                      "name": "ddColor"
+                    },
+                    "_text": "green"
+                  }
+                }
+              }
+            ],
+            "next": {
+              "block": {
+                "_attributes": {
+                  "type": "light_dot",
+                  "id": "Q8my~oUgd#@tcKW8O|^~"
+                },
+                "value": [
+                  {
+                    "_attributes": {
+                      "name": "DOT_NUMBER"
+                    },
+                    "shadow": {
+                      "_attributes": {
+                        "type": "math_number",
+                        "id": "GeJ;}IS@I*1V+{zn34_f"
+                      },
+                      "field": {
+                        "_attributes": {
+                          "name": "NUM"
+                        },
+                        "_text": "1"
+                      }
+                    }
+                  },
+                  {
+                    "_attributes": {
+                      "name": "SPLAT_NUMBER"
+                    },
+                    "shadow": {
+                      "_attributes": {
+                        "type": "math_number",
+                        "id": "D[4F7=tp|SqG/i5P{5*7"
+                      },
+                      "field": {
+                        "_attributes": {
+                          "name": "NUM"
+                        },
+                        "_text": "1"
+                      }
+                    }
+                  },
+                  {
+                    "_attributes": {
+                      "name": "DOT_COLOUR"
+                    },
+                    "shadow": {
+                      "_attributes": {
+                        "type": "color_picker",
+                        "id": "#{g#T@+|mT^qCA5B8Hen"
+                      },
+                      "field": {
+                        "_attributes": {
+                          "name": "ddColor"
+                        },
+                        "_text": "green"
+                      }
+                    }
+                  }
+                ],
+                "next": {
+                  "block": {
+                    "_attributes": {
+                      "type": "sound_play_until_done",
+                      "id": "HY^x*5Le^X9Sj`EXH0jo"
+                    },
+                    "value": [
+                      {
+                        "_attributes": {
+                          "name": "SOUND"
+                        },
+                        "shadow": {
+                          "_attributes": {
+                            "type": "sound_core",
+                            "id": "OKg%]$k5vnePAz]r|OSi"
+                          },
+                          "field": {
+                            "_attributes": {
+                              "name": "ddCoreSound"
+                            },
+                            "_text": "splat"
+                          }
+                        }
+                      },
+                      {
+                        "_attributes": {
+                          "name": "SPLAT_NUMBER"
+                        },
+                        "shadow": {
+                          "_attributes": {
+                            "type": "math_number",
+                            "id": "O:p)x|,_/SCNlgJP-SB4"
+                          },
+                          "field": {
+                            "_attributes": {
+                              "name": "NUM"
+                            },
+                            "_text": "1"
+                          }
+                        },
+                        "block": {
+                          "_attributes": {
+                            "type": "math_arithmetic",
+                            "id": "APf|H[7?/Vc7crH{DkmB"
+                          },
+                          "field": {
+                            "_attributes": {
+                              "name": "OP"
+                            },
+                            "_text": "MINUS"
+                          },
+                          "value": [
+                            {
+                              "_attributes": {
+                                "name": "A"
+                              },
+                              "shadow": {
+                                "_attributes": {
+                                  "type": "math_number",
+                                  "id": "21Lb3wRW1y:97t044CRl"
+                                },
+                                "field": {
+                                  "_attributes": {
+                                    "name": "NUM"
+                                  },
+                                  "_text": "1"
+                                }
+                              },
+                              "block": {
+                                "_attributes": {
+                                  "type": "math_number",
+                                  "id": "$GuwIE@7:/`1;`[_/#9N"
+                                },
+                                "field": {
+                                  "_attributes": {
+                                    "name": "NUM"
+                                  },
+                                  "_text": "0"
+                                }
+                              }
+                            },
+                            {
+                              "_attributes": {
+                                "name": "B"
+                              },
+                              "shadow": {
+                                "_attributes": {
+                                  "type": "math_number",
+                                  "id": "QwbMsB#:bT`R{S%I)p$3"
+                                },
+                                "field": {
+                                  "_attributes": {
+                                    "name": "NUM"
+                                  },
+                                  "_text": "1"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "next": {
+                      "block": {
+                        "_attributes": {
+                          "type": "variables_set",
+                          "id": "3Q`Z@H.+C7~[GP2|H-y3"
+                        },
+                        "field": {
+                          "_attributes": {
+                            "name": "VAR",
+                            "id": "P)Mq+Jk~]bF2$,retu)=",
+                            "variabletype": ""
+                          },
+                          "_text": "testvar"
+                        },
+                        "value": {
+                          "_attributes": {
+                            "name": "VALUE"
+                          },
+                          "block": {
+                            "_attributes": {
+                              "type": "math_number",
+                              "id": "6KZ.m^dCEw`|LA4s4BP*"
+                            },
+                            "field": {
+                              "_attributes": {
+                                "name": "NUM"
+                              },
+                              "_text": "128"
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "_attributes": {
+                              "type": "time_set_stopwatch",
+                              "id": "08qeVO[L0RF_}(KVgxEB"
+                            },
+                            "value": {
+                              "_attributes": {
+                                "name": "SECONDS"
+                              },
+                              "shadow": {
+                                "_attributes": {
+                                  "type": "math_number",
+                                  "id": "lqf9iYEg5/qVuJVmEH@L"
+                                },
+                                "field": {
+                                  "_attributes": {
+                                    "name": "NUM"
+                                  },
+                                  "_text": "0"
+                                }
+                              },
+                              "block": {
+                                "_attributes": {
+                                  "type": "variables_get",
+                                  "id": "u8zq:mV@6^e$+Zl:*sT@"
+                                },
+                                "field": {
+                                  "_attributes": {
+                                    "name": "VAR",
+                                    "id": "P)Mq+Jk~]bF2$,retu)=",
+                                    "variabletype": ""
+                                  },
+                                  "_text": "testvar"
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "_attributes": {
+                                  "type": "procedures_callnoreturn",
+                                  "id": "o8%D[Do[I)t2n9]a{Ntl"
+                                },
+                                "mutation": {
+                                  "_attributes": {
+                                    "name": "funny"
+                                  },
+                                  "arg": {
+                                    "_attributes": {
+                                      "name": "x"
+                                    }
+                                  }
+                                },
+                                "value": {
+                                  "_attributes": {
+                                    "name": "ARG0"
+                                  },
+                                  "block": {
+                                    "_attributes": {
+                                      "type": "music_instruments",
+                                      "id": "C`16)58K.zW@;h2!6(2j"
+                                    },
+                                    "field": {
+                                      "_attributes": {
+                                        "name": "ddInstruments"
+                                      },
+                                      "_text": "clarinet"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_attributes": {
+          "type": "sensing_splat_pressed",
+          "id": "MzQ:LG#j]4]ZKS54dC3~",
+          "x": "570",
+          "y": "230"
+        },
+        "value": {
+          "_attributes": {
+            "name": "SPLAT_NUMBER"
+          },
+          "shadow": {
+            "_attributes": {
+              "type": "math_number",
+              "id": "S4CElCcmrY;er,@ietja"
+            },
+            "field": {
+              "_attributes": {
+                "name": "NUM"
+              },
+              "_text": "1"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

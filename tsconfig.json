@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
+        "module": "es2015",
+        "target": "es2015",
+        "lib": ["esnext"],
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true
+    }
+}

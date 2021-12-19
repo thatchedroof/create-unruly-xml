@@ -1,0 +1,32 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "UTF-8"
+    }
+  },
+  "xml": {
+    "_attributes": {
+      "xmlns": "http://www.w3.org/1999/xhtml"
+    },
+    "variables": {},
+    "block": {
+      "_attributes": {
+        "type": "sensing_when_splat_pressed",
+        "id": "98601300",
+        "x": "0",
+        "y": "0"
+      },
+      "next": {
+        "block": {
+          "_attributes": {
+            "type": "",
+            "id": "31862075",
+            "x": "0",
+            "y": "0"
+          }
+        }
+      }
+    }
+  }
+}

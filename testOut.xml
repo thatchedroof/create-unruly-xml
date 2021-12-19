@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables/>
+  <block type="sensing_when_splat_pressed" id="98601300" x="0" y="0">
+    <next>
+      <block type="" id="31862075" x="0" y="0"/>
+    </next>
+  </block>
+</xml>
